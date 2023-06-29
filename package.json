@@ -1,0 +1,15 @@
+{
+  "name": "webpack-port-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MakeBetterMe/webpack-port-collector.git",
+  "author": "yunpeng.wang <yunpeng.wang@weimob.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.1",
+    "fswin": "^3.23.311",
+    "home-or-tmp": "^4.0.0",
+    "lodash": "^4.17.21"
+  }
+}
