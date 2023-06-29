@@ -1,3 +1,9 @@
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+![npm](https://img.shields.io/npm/dw/html-webpack-plugin.svg)
+[![tests][tests]][tests-url]
+[![Backers on Open Collective](https://opencollective.com/html-webpack-plugin/backers/badge.svg)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/html-webpack-plugin/sponsors/badge.svg)](#sponsors)
 <div align="center">
   <h1>webpack-port-collector</h1>
   <p>Plugin that collects projects started with webpack</p>
@@ -38,7 +44,7 @@ module.exports = {
 
 <h2 align="center">Options</h2>
 
-| <div style="width:200px">key</div> | desc                                   |
+| <div style="width:400px">key</div> | <div style="width:400px">desc</div>    |
 |------------------------------------|:---------------------------------------|
 | projectName                        | the project name that had been started |
 
