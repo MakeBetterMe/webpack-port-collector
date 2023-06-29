@@ -33,9 +33,9 @@ module.exports = {
 }
 ```
 ## Options
-| **key** | **desc**                                |
-| --- |-----------------------------------------|
-| projectName | the project name that had been started,The default is the name in package.json|
+| **props** | **required** | **desc**|
+| --- |--------------|-----------------------------------------|
+| projectName | false        | the project name that had been started,The default is the name in package.json|
 
 <img src="https://maketea.oss-cn-shanghai.aliyuncs.com/cms/jzkb/read_img.png" width="500" align=center style="display: block;margin-bottom:20px"/>
 After starting the project, you will see the log of this plug-in. The two important ports exposed are websocket port and http port. The usage is as follows:
