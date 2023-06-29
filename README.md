@@ -33,7 +33,9 @@ module.exports = {
 | --- | --- |
 | projectName | the project name that had been started |
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/413251/1688028790318-dcb8aa65-0f18-4636-97cd-eb873b4e422d.png#averageHue=%230b0d14&clientId=u54d494a3-e6a1-4&from=paste&id=u90331f88&originHeight=741&originWidth=997&originalType=url&ratio=2&rotation=0&showTitle=false&size=805599&status=done&style=none&taskId=u3e123db9-02fe-4020-8420-9f47fb4f629&title=) After starting the project, you will see the log of this plug-in. The two important ports exposed are websocket port and http port. The usage is as follows:
+[//]: # (![image.png]&#40;https://cdn.nlark.com/yuque/0/2023/png/413251/1688028790318-dcb8aa65-0f18-4636-97cd-eb873b4e422d.png#averageHue=%230b0d14&clientId=u54d494a3-e6a1-4&from=paste&id=u90331f88&originHeight=741&originWidth=997&originalType=url&ratio=2&rotation=0&showTitle=false&size=805599&status=done&style=none&taskId=u3e123db9-02fe-4020-8420-9f47fb4f629&title=&#41;)
+<img src="https://cdn.nlark.com/yuque/0/2023/png/413251/1688028790318-dcb8aa65-0f18-4636-97cd-eb873b4e422d.png#averageHue=%230b0d14&clientId=u54d494a3-e6a1-4&from=paste&id=u90331f88&originHeight=741&originWidth=997&originalType=url&ratio=2&rotation=0&showTitle=false&size=805599&status=done&style=none&taskId=u3e123db9-02fe-4020-8420-9f47fb4f629&title=" width = "300" height = "200" alt="图片名称" align=center />
+After starting the project, you will see the log of this plug-in. The two important ports exposed are websocket port and http port. The usage is as follows:
 
 1. The ports in the example below are output on plugin startup
 2. You can get a list of all webpack projects started locally via the http port ![image.png](https://cdn.nlark.com/yuque/0/2023/png/413251/1688028789630-e28c1c27-78c2-47a8-8b09-caccfd923c3a.png#averageHue=%23cdcdd2&clientId=u54d494a3-e6a1-4&from=paste&id=u19fcd592&originHeight=318&originWidth=818&originalType=url&ratio=2&rotation=0&showTitle=false&size=53052&status=done&style=none&taskId=u5b5522a4-1fe9-48eb-b1bd-466f83401e7&title=)
