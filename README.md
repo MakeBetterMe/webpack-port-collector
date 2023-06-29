@@ -1,9 +1,3 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-![npm](https://img.shields.io/npm/dw/html-webpack-plugin.svg)
-[![tests][tests]][tests-url]
-[![Backers on Open Collective](https://opencollective.com/html-webpack-plugin/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/html-webpack-plugin/sponsors/badge.svg)](#sponsors)
 <div align="center">
   <h1>webpack-port-collector</h1>
   <p>Plugin that collects projects started with webpack</p>
@@ -48,13 +42,14 @@ module.exports = {
 |------------------------------------|:---------------------------------------|
 | projectName                        | the project name that had been started |
 
-![img.png](img.png)
+![avatar](https://image.soudlink.com/web/1688028396001.png)
 After starting the project, you will see the log of this plug-in. The two important ports exposed are websocket port and http port. The usage is as follows:
 1. The ports in the example below are output on plugin startup
 2. You can get a list of all webpack projects started locally via the http port
-   ![img_1.png](img_1.png)
+   ![avatar](https://image.soudlink.com/web/1688028406257.png)
 
 
 3. You can get a list of locally started projects in real time by listening to the websocket,When a project is started or terminated, websocket will send a message
-   ![img_2.png](img_2.png)
+   ![avatar](https://image.soudlink.com/web/1688028415034.png)
+
 
