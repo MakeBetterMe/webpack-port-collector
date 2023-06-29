@@ -1,5 +1,11 @@
 # webpack-port-collector
-Plugin that collects projects started with webpack
+This is a [webpack](http://webpack.js.org/) plugin that collects projects started with webpack on your computer.Here are some scenarios that come to mind:
+
+1. You can monitor the started project in the cli project, which is convenient for starting, pausing, or restarting.
+2. If you are debugging many atomic components and the components are scattered in different projects, you can use this plugin for unified management.
+3. Welcome to propose more scenarios in issuse to make the plugin more general
+
+
 ## Install
 ```
 npm i --save-dev webpack-port-collector
@@ -7,11 +13,7 @@ npm i --save-dev webpack-port-collector
 ```
 yarn add --dev webpack-port-collector
 ```
-This is a [webpack](http://webpack.js.org/) plugin that collects projects started with webpack on your computer.Here are some scenarios that come to mind:
 
-1. You can monitor the started project in the cli project, which is convenient for starting, pausing, or restarting.
-2. If you are debugging many atomic components and the components are scattered in different projects, you can use this plugin for unified management.
-3. Welcome to propose more scenarios in issuse to make the plugin more general
 ## Usage
 **webpack.config.js**
 ```
