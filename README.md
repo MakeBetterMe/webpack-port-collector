@@ -38,7 +38,7 @@ module.exports = {
 
 <h2 align="center">Options</h2>
 
-| <div style="width:400px">key</div> | <div style="width:400px">desc</div>    |
+| key | desc                                   |
 |------------------------------------|:---------------------------------------|
 | projectName                        | the project name that had been started |
 
