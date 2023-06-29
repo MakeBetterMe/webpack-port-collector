@@ -127,6 +127,7 @@ module.exports = {
   getPkgName,
   getValueInRootConfigs,
   isWebpack5,
+  setDevServerUrl,
   getDevServerUrl,
   isMultiEntry
 }
