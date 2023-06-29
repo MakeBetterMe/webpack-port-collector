@@ -26,7 +26,9 @@ module.exports = {
     filename: 'index_bundle.js'
   },
   plugins: [
-     new WebpackPortCollector()
+     new WebpackPortCollector({
+        projectName:'webpack-demo'
+     })
   ]
 }
 ```
