@@ -1,8 +1,8 @@
 # webpack-port-collector
-<a href="./README.zh-CN.md">简体中文</a>  | <a style="marign-left:20px" href="./README.md">English</a>
+[<a href="./README.zh-CN.md">简体中文</a>  | <a style="marign-left:20px" href="./README.md">English</a>]()
 <br/>
 <br/>
-This is a [webpack](http://webpack.js.org/) plugin that collects projects started with webpack on your computer.Here are some scenarios that come to mind:
+这是一个This is a [webpack](http://webpack.js.org/) plugin that collects projects started with webpack on your computer.Here are some scenarios that come to mind:
 
 1. You can monitor the started project in the cli project, which is convenient for starting, pausing, or restarting.
 2. If you are debugging many atomic components and the components are scattered in different projects, you can use this plugin for unified management.
