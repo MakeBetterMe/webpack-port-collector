@@ -43,5 +43,5 @@ module.exports = {
 启动项目后，你会看到这个插件的日志。暴露的两个重要端口是 websocket 端口和 http 端口。用法如下：
 
 1. 下例中的端口是插件启动时输出
-2. 您可以通过http端口获取本地启动的所有webpack项目的列表。 <img src="https://maketea.oss-cn-shanghai.aliyuncs.com/cms/jzkb/read_img_1.png" width="500" align=center style="display: block;margin-bottom:20px"/>
-3. 通过监听websocket可以实时获取本地启动的项目列表，当项目启动或终止时，websocket会发送消息。<img src="https://maketea.oss-cn-shanghai.aliyuncs.com/cms/jzkb/read_img_2.png" width="500" align=center style="display: block;margin-bottom:20px"/>
+2. 您可以通过http端口获取本地启动的所有webpack项目的列表。<br/> <img src="https://maketea.oss-cn-shanghai.aliyuncs.com/cms/jzkb/read_img_1.png" width="500" align=center style="display: block;margin-bottom:20px"/>
+3. 通过监听websocket可以实时获取本地启动的项目列表，当项目启动或终止时，websocket会发送消息。<br/><img src="https://maketea.oss-cn-shanghai.aliyuncs.com/cms/jzkb/read_img_2.png" width="500" align=center style="display: block;margin-bottom:20px"/>
