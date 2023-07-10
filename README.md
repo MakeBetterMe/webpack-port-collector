@@ -2,7 +2,7 @@
 [<a href="./README.md">简体中文</a>  | <a style="marign-left:20px" href="./README-EN.md">English</a>]()
 <br/>
 <br/>
-这是一个  [webpack](http://webpack.js.org/)  插件，它收集电脑上使用webpack启动的项目。以下是一些想到的场景：
+这是一个  [webpack](http://webpack.js.org/)  插件，它收集电脑上使用webpack启动的项目。以下是一些会使用到的场景：
 
 1. 可以在cli项目中监控已启动的项目，方便启动、暂停或重启。
 2. 如果你正在调试很多原子组件，并且组件分散在不同的项目中，可以使用这个插件进行统一管理。
