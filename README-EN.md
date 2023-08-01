@@ -5,8 +5,9 @@
 This is a [webpack](http://webpack.js.org/) plugin that collects projects started with webpack on your computer.Here are some scenarios that come to mind:
 
 1. You can monitor the started project in the cli project, which is convenient for starting, pausing, or restarting.
-2. If you are debugging many atomic components and the components are scattered in different projects, you can use this plugin for unified management.
-3. Welcome to propose more scenarios in issuse to make the plugin more general
+2. In the micro-frontend scenario, you can use this plug-in for unified management when debugging queue sub-applications locally.
+3. If you are debugging many atomic components and the components are scattered in different projects, you can use this plugin for unified management.
+4. Welcome to propose more scenarios in issuse to make the plugin more general
 
 
 ## Install
