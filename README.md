@@ -18,7 +18,7 @@ yarn add --dev webpack-port-collector
 ```
 
 ## 使用
-**webpack.config.js**
+**每个子项目的webpack.config.js**
 ```
 const WebpackPortCollector = require('webpack-port-collector')
 
