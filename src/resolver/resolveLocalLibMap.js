@@ -52,7 +52,6 @@ function resolveLocalLibMap(stats) {
 
 //将本地的包，同步到服务器上
 async function uploadToLibServers(infos) {
-  console.log('infos--->',infos);
   const port = getValueInRootConfigs('ChildProcessServerPort')
   try {
     await axios.post(`http://localhost:${port}/update`, infos)

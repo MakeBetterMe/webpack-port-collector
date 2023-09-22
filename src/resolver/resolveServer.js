@@ -12,8 +12,8 @@ module.exports = async function () {
     } else if (await findExistServerProcess() != null) { //本地已经有这个进程了，不用启动了
       const wssPort = getValueInRootConfigs('ChildProcessWebsocketPort')
       const httpPort = getValueInRootConfigs('ChildProcessServerPort')
-      log.alert(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} websocket debug port is ${wssPort} 💡💡💡💡💡💡`)
-      log.alert(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} http port is ${httpPort}`)
+      log.info(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} websocket debug port is ${wssPort} 💡💡💡💡💡💡`)
+      log.info(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} http port is ${httpPort}`)
       registerCleaner()
     } else {
       registerCleaner()

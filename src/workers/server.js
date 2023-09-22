@@ -97,11 +97,11 @@ function startDebugServer() {
     const defaultHttpPort = findFreePort({start: 4000})
     setValueInRootConfigs('ChildProcessServerPort', defaultHttpPort)
     app.listen(defaultHttpPort, () => {
-      log.alert(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} http port is ${defaultHttpPort}`)
+      log.info(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} http port is ${defaultHttpPort}`)
     })
     setValueInRootConfigs('ChildProcessWebsocketPort', port)
     const wss = new WebSocketServer({port: port}, () => {
-      log.alert(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} websocket debug port is ${port} 💡💡💡💡💡💡`)
+      log.info(`💡💡💡💡💡💡 ${ZZ_PLUGIN_NAME} websocket debug port is ${port} 💡💡💡💡💡💡`)
     });
     wss.on('connection', function (instance) {
       wsPool.push(instance)
