@@ -86,6 +86,13 @@ function getWpmLocalConfigsFilePath() {
   return path.resolve(rootPath, './configs.json')
 }
 
+function setValueInRootConfigs(key, value) {
+  const configsPath = getWpmLocalConfigsFilePath()
+  const configs = require(configsPath)
+  configs[key] = value
+  fs.writeJsonSync(configsPath, configs)
+}
+
 function getValueInRootConfigs(key) {
   const configs = require(getWpmLocalConfigsFilePath())
   return configs[key]
@@ -125,6 +132,7 @@ module.exports = {
   findExistServerProcess,
   WPM_UNIQUE_CHILD_PROCESS_ID,
   getPkgName,
+  setValueInRootConfigs,
   getValueInRootConfigs,
   isWebpack5,
   setDevServerUrl,
