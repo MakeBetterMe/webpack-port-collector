@@ -30,7 +30,8 @@ module.exports = {
   },
   plugins: [
      new WebpackPortCollector({
-        projectName:'webpack-demo'
+        projectName:'webpack-demo',
+        filename: "localEntry.js"
      })
   ]
 }
