@@ -18,8 +18,8 @@ class WebpackPortCollector {
     isMultiEntry(compiler.options)
 
     const hooks = compiler.hooks;
-    hooks.environment.tap(ZZ_PLUGIN_NAME, async function () {
-      resolveDevSever(compiler)
+    hooks.environment.tap(ZZ_PLUGIN_NAME, async () => {
+      resolveDevSever(compiler, this.iotions.filename)
       await resolveServer()
     });
 
