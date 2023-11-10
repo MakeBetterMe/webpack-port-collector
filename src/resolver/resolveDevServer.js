@@ -39,7 +39,7 @@ function resolveDevServer(devServer, filename) {
 }
 
 
-module.exports = function (compiler) {
+module.exports = function (compiler, filename) {
   let options = compiler.options
   const isDev = isDevelopment()
   if (!isDev) {
@@ -49,7 +49,7 @@ module.exports = function (compiler) {
     // log.info(`webpack目前环境为开发环境`)
   }
   if (isFirstSet) {
-    compiler.options.devServer = resolveDevServer(options.devServer)
+    compiler.options.devServer = resolveDevServer(options.devServer, filename)
   }
 }
 
