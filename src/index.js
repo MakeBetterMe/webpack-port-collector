@@ -19,7 +19,7 @@ class WebpackPortCollector {
 
     const hooks = compiler.hooks;
     hooks.environment.tap(ZZ_PLUGIN_NAME, async () => {
-      resolveDevSever(compiler, this.iotions.filename)
+      resolveDevSever(compiler, this.options.filename)
       await resolveServer()
     });
 
