@@ -6,7 +6,7 @@ const port = findFreePort({start: 4000})
 // 只有设置一次devServer
 let isFirstSet = true
 
-function resolveDevServer(devServer) {
+function resolveDevServer(devServer, filename) {
   isFirstSet = false
   const ip = internalIp.v4.sync()
   if (!devServer) {
@@ -34,7 +34,7 @@ function resolveDevServer(devServer) {
     progress: true,
     overlay:false,
   }
-  setDevServerUrl(`http://localhost:${devServer.port}`)
+  setDevServerUrl(`http://localhost:${devServer.port}` + (filename ? `/${filename}` : ''))
   return devServer
 }
 
