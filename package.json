@@ -1,6 +1,6 @@
 {
   "name": "webpack-port-collector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
   "repository": "git@github.com:MakeBetterMe/webpack-port-collector.git",
   "author": "yunpeng.wang <yunpeng.wang@weimob.com>",
